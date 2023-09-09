@@ -5,4 +5,44 @@ header {
 .pageHeader {
   font-size: 40px;  
 }
+.productContainer {
+  display: flex;
+  gap: 20px;
+}
 
+.productImage {
+  width: 250px;
+  height: 250px;
+  background-image: url('../images/perfume.jpeg');
+  background-position: center;
+  border-radius: 20px;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.productName {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+
+.moreButton {
+  background-color: transparent;
+  border: 3px solid gray;
+  border-radius: 10px;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
